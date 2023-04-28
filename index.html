@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Прогноз погоды</h1>
+
+        <form class="header__form">
+            <input class="input" type="text" placeholder="Введите название города">
+            <button class="btn">Поиск</button>
+        </form>
+
+    </header>
+
+    <div class="weather-info">
+        <div class="mode-list none">
+            <button class="mode-list-item mode-list-item--active" id="current-mode">
+                Текущая погода
+            </button>
+            <button class="mode-list-item" id="today-mode">
+                Прогноз на сегодня
+            </button>
+            <button class="mode-list-item" id="several-days-mode">
+                Прогноз на три дня
+            </button>
+        </div>
+
+        
+
+    </div>
+
+
+    <footer class="footer">
+        <a href="https://www.weatherapi.com/" target="_blank" target="_blank">Ссылка на API</a>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
